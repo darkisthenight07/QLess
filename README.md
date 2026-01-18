@@ -292,7 +292,7 @@ The app will open at `http://localhost:8501`
 *Real-time facility overview with color-coded status*
 
 ### Admin Dashboard
-![Admin Overview](screenshots/admin-overview.png)
+![Admin Overview](screenshots/admin-dashboard.png)
 *Comprehensive facility monitoring and management*
 
 ## 🌟 Impact & Practicality

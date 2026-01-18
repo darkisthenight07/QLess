@@ -12,7 +12,7 @@ class QRService:
     def generate_facility_qr(self, facility_id, facility_name):
         """Generate QR code for a facility"""
         # Create QR data with facility info
-        app_url = "http://localhost:8501"
+        app_url = "http://192.168.91.54:8501"
         qr_data = f"{app_url}/?facility={facility_id}"
         
         # Generate QR code

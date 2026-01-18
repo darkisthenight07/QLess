@@ -1,4 +1,4 @@
-# QLess 🎓 - Smart Campus Queue Manager(https://qless-demo.streamlit.app/)
+# [QLess](https://qless-demo.streamlit.app/) 🎓 - Smart Campus Queue Manager
 
 > Revolutionizing campus facility management with real-time queue tracking and QR-based check-ins
 

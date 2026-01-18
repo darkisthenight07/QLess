@@ -36,7 +36,7 @@ def show_login_form():
     with st.form("login_form"):
         email = st.text_input(
             "Email",
-            placeholder="your.email@campus.edu",
+            placeholder="your.email@iiti.ac.in",
             help="Use your campus email"
         )
         
@@ -114,8 +114,8 @@ def show_registration_form():
             # Validation
             if not all([name, email, password, confirm_password]):
                 st.error("Please fill in all fields")
-            elif not email.endswith('@campus.edu'):
-                st.warning("Please use your campus email (@campus.edu)")
+            elif not email.endswith('@iiti.ac.in'):
+                st.warning("Please use your campus email (@iiti.ac.in)")
             elif len(password) < 6:
                 st.error("Password must be at least 6 characters long")
             elif password != confirm_password:
